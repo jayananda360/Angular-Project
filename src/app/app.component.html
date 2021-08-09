@@ -1,0 +1,9 @@
+<app-header (featureSelected)="onNavigate($event)"></app-header>
+<app-home *ngIf="loadedFeature === 'home'"></app-home>
+<div class="container">
+    <div class="row">
+        <app-services *ngIf="loadedFeature === 'services'"></app-services>
+        <app-career *ngIf="loadedFeature === 'career'"></app-career>
+        <app-about-us *ngIf="loadedFeature === 'about-us'"></app-about-us>
+    </div>
+</div>

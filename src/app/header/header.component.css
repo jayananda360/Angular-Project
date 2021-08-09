@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    align-items: center;
+    background-color: rgb(31, 89, 177);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#navItem{
+    height: 60px;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+.nav-item a{
+    color: white;
+    font-weight: bold;
+}

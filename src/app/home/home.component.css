@@ -1,0 +1,39 @@
+img{
+    height: 70vh;
+    margin-top: 2px;
+}
+.carousel-caption{
+    color: rgb(10, 0, 70);
+    font-weight: bold;
+}
+.content{
+    margin: 0;
+}
+#knowMore{
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#knowMoreBtn{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+#containerBody{
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contentName{
+    text-align: center;
+    color: rgb(6, 0, 85);
+}
+footer{
+    margin-top: 2rem;
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
